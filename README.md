@@ -1,6 +1,3 @@
-# Tech Innovate 2025 Landing Page
-
-This repository contains the code for the landing page of the Tech Innovate 2025 conference. The landing page provides information about the conference, including the schedule, speakers, and registration details.
 
 ## Technologies Used
 
