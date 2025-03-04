@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="coffeelp.css">
+    <title>Coffee Network</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">Coffee Network</div>
+        <span class="sideMenuButton" onclick="openNavbar()">&#9776;</span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#SignUp">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for responsive website -->
+    <div class="sideNavigationBar" id="sideNavigationBar">
+        <a href="#" class="closeButton" onclick="closeNavbar()">&#x274C;</a>
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#SignUp">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>Welcome to Coffee Network</h1>
+            <button>
+                <a>Explore More</a>
+            </button>
+        </div>
+    </div>
+
+    <section class="about" id="About">
+        <div class="content">
+            <center>
+            <div class="title">
+                <span><a>Our Coffee Offerings</a></span>
+            </div>
+        </center>
+            <div class="boxes">
+                <div class="box">
+                    <img src="C:\Users\DELL\Desktop\Landing Page\coffee1.jpg" alt="Espresso">
+                    <div class="topic">
+                        <a href="#">Espresso</a>
+                    </div>
+                    <p>A strong, black coffee made by forcing steam through finely ground coffee beans.</p>
+                </div>
+                <div class="box">
+                    <img src="C:\Users\DELL\Desktop\Landing Page\coffee2.jpg" alt="Cappuccino">
+                    <div class="topic">
+                        <a href="#">Cappuccino</a>
+                    </div>
+                    <p>A coffee drink consisting of espresso, hot milk, and steamed milk foam.</p>
+                </div>
+
+                <div class="box">
+                    <img src="C:\Users\DELL\Desktop\Landing Page\coffee3.jpg" alt="Latte">
+                    <div class="topic">
+                        <a href="#">Latte</a>
+                    </div>
+                    <p>A coffee drink made with espresso and steamed milk, typically topped with foam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="SignUp">
+        <div class="content">
+            <h1><u>About Coffee Network</u></h1><br><br>
+            <p><b>Coffee Network is your go-to destination for coffee lovers. We bring you the best coffee experiences, 
+               from the finest brews to the latest trends in the coffee industry.</b></p>
+            <p><b>Our mission is to connect coffee enthusiasts, share knowledge, and promote the art of brewing the perfect cup.
+                "Coffee shop networking" is a network design model that allows employees to connect to their company's network from anywhere, 
+                using their preferred devices. It's a flexible approach that supports remote and hybrid workforces.</b>
+            </p><br><br>
+            <div class="title"><span>Sign Up for Updates</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+                <a>Coffee Network</a>
+            </span>
+        </div>
+    </footer>
+
+    <script>
+        function openNavbar() {
+            document.getElementById("sideNavigationBar").style.width = "50%";
+        }
+
+        function closeNavbar() {
+            document.getElementById("sideNavigationBar").style.width = "0%";
+        }
+    </script>
+</body>
+
+</html>
